@@ -1,0 +1,50 @@
+*/set weechat.color.separator 240
+*/set weechat.color.chat_time 243
+*/set weechat.color.chat_time_delimiters 237
+*/set weechat.color.chat_prefix_error 210
+*/set weechat.color.chat_prefix_network 150
+*/set weechat.color.chat_prefix_action 183
+*/set weechat.color.chat_prefix_join 158
+*/set weechat.color.chat_prefix_quit 240
+*/set weechat.color.chat_prefix_more 111
+*/set weechat.color.chat_prefix_suffix 237
+*/set weechat.color.chat_buffer 158
+*/set weechat.color.chat_server 216
+*/set weechat.color.chat_channel 111
+*/set weechat.color.chat_nick_offline 240
+*/set weechat.color.chat_nick_offline_highlight 254
+*/set weechat.color.chat_nick_colors "183,210,223,216,150,158,153,111,147"
+*/set weechat.color.chat_highlight 210
+*/set weechat.color.chat_highlight_bg 237
+*/set weechat.color.chat_nick_self 111
+*/set weechat.color.chat_read_marker 240
+*/set weechat.color.chat_read_marker_bg 234
+
+*/set weechat.bar.status.color_bg 234
+*/set weechat.bar.status.color_fg 254
+*/set weechat.bar.status.color_delim 240
+*/set weechat.bar.title.color_bg 234
+*/set weechat.bar.title.color_fg 111
+*/set weechat.bar.input.color_bg 234
+*/set weechat.bar.input.color_fg 254
+*/set weechat.bar.input.color_delim 240
+*/set weechat.bar.nicklist.color_bg 234
+*/set weechat.bar.nicklist.color_fg 248
+*/set weechat.bar.nicklist.color_delim 240
+
+*/set weechat.color.status_number 216
+*/set weechat.color.status_name 111
+*/set weechat.color.status_filter 150
+*/set weechat.color.status_data_msg 183
+*/set weechat.color.status_data_highlight 210
+*/set weechat.color.status_data_private 158
+*/set weechat.color.status_more 223
+*/set weechat.color.status_time 243
+
+*/set buflist.format.buffer "${format_number}${indent}${format_nick_prefix}${if:${current_buffer}?${color:254,55}:${color_hotlist}}${name}${if:${current_buffer}?${color:reset}:}"
+*/set buflist.format.buffer_current "${format_buffer}"
+*/set buflist.format.hotlist_highlight "${color:210}"
+*/set buflist.format.hotlist_message "${color:223}"
+*/set buflist.format.hotlist_private "${color:158}"
+*/set buflist.format.hotlist_low "${color:240}"
+*/set buflist.format.number "${color:240}${number}${if:${number_displayed}?.: }"

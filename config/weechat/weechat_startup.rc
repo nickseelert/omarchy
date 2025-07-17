@@ -1,0 +1,19 @@
+*/set weechat.startup.display_logo off
+*/set weechat.startup.display_version off
+*/set weechat.look.buffer_time_format "${color:245}%H${color:240}:${color:245}%M"
+*/set weechat.look.prefix_align_max 15
+*/set weechat.look.prefix_suffix "│"
+*/set weechat.look.read_marker_string "─"
+*/set weechat.look.separator_horizontal "─"
+
+*/set weechat.bar.buflist.size_max 25
+*/set weechat.bar.input.size 0
+*/set weechat.bar.nicklist.size_max 25
+*/set weechat.bar.status.items "[time],[buffer_plugin],buffer_name+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+*/set weechat.bar.title.items "buffer_title"
+
+*/set irc.server_default.nicks "${username},${username}_"
+*/set irc.server_default.realname ""
+*/set irc.server_default.autojoin_dynamic on
+
+*/script exec ~/.config/weechat/theme.rc

@@ -1,0 +1,49 @@
+*/set weechat.color.separator 238
+*/set weechat.color.chat_time 242
+*/set weechat.color.chat_time_delimiters 236
+*/set weechat.color.chat_prefix_error 167
+*/set weechat.color.chat_prefix_network 108
+*/set weechat.color.chat_prefix_action 142
+*/set weechat.color.chat_prefix_join 151
+*/set weechat.color.chat_prefix_quit 238
+*/set weechat.color.chat_prefix_more 72
+*/set weechat.color.chat_prefix_suffix 236
+*/set weechat.color.chat_buffer 151
+*/set weechat.color.chat_server 208
+*/set weechat.color.chat_channel 72
+*/set weechat.color.chat_nick_offline 238
+*/set weechat.color.chat_nick_offline_highlight 223
+*/set weechat.color.chat_nick_colors "167,208,215,108,151,72,142,175"
+*/set weechat.color.chat_highlight 167
+*/set weechat.color.chat_highlight_bg 236
+*/set weechat.color.chat_read_marker 238
+*/set weechat.color.chat_read_marker_bg 235
+
+*/set weechat.bar.status.color_bg 235
+*/set weechat.bar.status.color_fg 223
+*/set weechat.bar.status.color_delim 238
+*/set weechat.bar.title.color_bg 235
+*/set weechat.bar.title.color_fg 72
+*/set weechat.bar.input.color_bg 235
+*/set weechat.bar.input.color_fg 223
+*/set weechat.bar.input.color_delim 238
+*/set weechat.bar.nicklist.color_bg 235
+*/set weechat.bar.nicklist.color_fg 245
+*/set weechat.bar.nicklist.color_delim 238
+
+*/set weechat.color.status_number 208
+*/set weechat.color.status_name 72
+*/set weechat.color.status_filter 108
+*/set weechat.color.status_data_msg 142
+*/set weechat.color.status_data_highlight 167
+*/set weechat.color.status_data_private 151
+*/set weechat.color.status_more 215
+*/set weechat.color.status_time 242
+
+*/set buflist.format.buffer "${format_number}${indent}${format_nick_prefix}${color_hotlist}${name}"
+*/set buflist.format.buffer_current "${color:223,65}${format_buffer}${color:reset}"
+*/set buflist.format.hotlist_highlight "${color:167}"
+*/set buflist.format.hotlist_message "${color:215}"
+*/set buflist.format.hotlist_private "${color:151}"
+*/set buflist.format.hotlist_low "${color:238}"
+*/set buflist.format.number "${color:238}${number}${if:${number_displayed}?.: }"
